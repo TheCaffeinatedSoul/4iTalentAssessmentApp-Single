@@ -1,0 +1,99 @@
+.header-div {
+  padding: 2%;
+  padding-left: 3%;
+  padding-bottom: 0.7%;
+  border-bottom: 2px solid #e6e6e6;
+}
+
+.summary-div {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 1%;
+  max-width: 90vw;
+}
+
+.summary-div .section-component-div {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  border-top: 1px solid #e6e6e6;
+  max-width: 94.5vw;
+}
+
+.summary-div .section-component-div .section-name {
+  color: #263238;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.summary-div .section-component-div .title-name {
+  color: #0099dd;
+  font-size: 0.95rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: none;
+}
+
+.summary-div .section-component-div .title-card {
+  margin-left: 3%;
+  margin-right: 3%;
+  min-width: 10vw;
+  max-width: 10vw;
+  line-height: normal;
+}
+
+.summary-div .question-component-div {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  width: calc(100vw - 70px);
+  max-height: 10vh;
+}
+
+.section-component-div {
+  text-transform: capitalize;
+}
+
+.sub-content {
+  display: flex;
+}
+
+.sections-sub-div {
+  display: flex;
+  padding-right: 1%;
+  color: #787878;
+}
+
+.unanswered {
+  display: flex;
+  color: red;
+}
+
+.flagged-count {
+  display: flex;
+  color: #ffb51f;
+  padding-right: 1%;
+}
+
+.navigation-buttons .submit-btn {
+  background-color: #0099dd;
+  border: 1px solid #0099dd;
+  color: white;
+}
+
+.navigation-buttons .submit-btn:hover {
+  background-color: #028eca;
+  border: 1px solid #028eca;
+  color: white;
+}
+
+.navigation-buttons .submit-btn:active {
+  background-color: #0099dd !important;
+  border: 1px solid #0099dd !important;
+  color: white !important;
+}

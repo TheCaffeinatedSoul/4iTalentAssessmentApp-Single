@@ -1,0 +1,136 @@
+.login-page-div {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../../assets/4i\ Workspace.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-blend-mode: darken;
+}
+
+.login-page-div::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  opacity: 0.55;
+}
+
+.login-form-card {
+  display: flex;
+  background-image: url("../../assets/Resources/BG.jpg");
+  background-size: cover;
+  background-position: center;
+  max-width: 90vw;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  max-height: 85vh;
+}
+
+.login-form-label {
+  color: #787878;
+}
+
+.login-form-card .card-header {
+  display: flex;
+  width: 100%;
+  padding: 5%;
+  padding-right: 8%;
+  color: #0099dd;
+  border: none;
+  background: none;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bolder;
+  font-size: large;
+}
+
+.login-form-card > .card-header > .login-header {
+  align-items: center;
+  justify-content: center;
+}
+
+.login-form-card input.form-control {
+  margin-top: 0.5% !important;
+  width: 25vw;
+  margin: 0 auto;
+  @media (min-width: 350px) {
+    width: 70vw;
+  }
+  @media (min-width: 560px) {
+    width: 50vw;
+  }
+  @media (min-width: 768px) {
+    width: 30vw;
+  }
+  @media (min-width: 992px) {
+    width: 25vw;
+  }
+  @media (min-width: 1200px) {
+    width: 25vw;
+  }
+}
+
+.login-form-card input.form-control.is-invalid {
+  animation: shake 0.2s ease-in-out;
+}
+
+.login-form-card .verify-btn {
+  background-color: #0099dd;
+  color: #ffffff;
+  border-color: #0099dd;
+  width: 100%;
+}
+
+.login-form-card .verify-btn:hover {
+  background-color: #028eca !important;
+  color: #ffffff;
+  border-color: #028eca;
+}
+
+.login-form-card .verify-btn:disabled {
+  background-color: #028eca !important;
+  color: #ffffff;
+  border-color: #028eca;
+}
+
+.verify-key-div {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  padding-bottom: 5%;
+}
+
+.invalid-feedback {
+  margin-top: 0px !important;
+}
+
+.required::after {
+  content: "*";
+  color: red;
+  margin-left: 3px;
+}
+
+@keyframes shake {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-6px);
+  }
+  50% {
+    transform: translateX(6px);
+  }
+  75% {
+    transform: translateX(-3px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}

@@ -1,0 +1,66 @@
+.overlay-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 11;
+}
+
+.overlap-group {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #ffffff;
+  border-radius: 10px;
+  height: fit-content;
+  width: fit-content;
+}
+
+.div {
+  display: flex;
+  flex-direction: column;
+  padding: 5%;
+  color: #263238;
+  font-size: 16px;
+  font-weight: 600;
+  width: 40vw;
+}
+
+.text-wrapper-2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 1rem;
+  color: #0099dd;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.p {
+  display: flex;
+  justify-content: center;
+  color: #0099dd;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.logo {
+  width: fit-content;
+  height: 8vh;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 35vw;
+  padding-top: 3%;
+}

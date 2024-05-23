@@ -1,0 +1,105 @@
+.intro-body {
+  padding-left: 3vw;
+  padding-right: 6vw;
+  padding-top: 5vh;
+}
+
+.main-card .card-body {
+  color: black;
+  font-size: medium;
+}
+
+.main-card .card-body .greetingMsg {
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.checkbox-div {
+  display: flex;
+  align-items: center;
+}
+
+.checkbox-input {
+  margin-right: 10px;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  background-color: #eee;
+}
+
+.sub-card {
+  margin-top: 0.25%;
+}
+
+.durationMsg {
+  color: #483ea8;
+}
+
+.termsMsg {
+  margin-top: 15px;
+}
+
+.ruleList {
+  list-style-type: circle;
+}
+
+.instruction-cards {
+  display: flex;
+}
+
+.legend-items {
+  display: flex;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+
+.next-button .btn {
+  color: #0099dd !important;
+  background-color: white;
+  border: 1px solid #0099dd !important;
+  font-size: 18px;
+  font-weight: 400;
+  left: 100px;
+  letter-spacing: 0;
+  line-height: normal;
+  top: 5px;
+  margin-left: 90%;
+  margin-top: 1%;
+  width: 160px;
+}
+
+.next-button .btn:hover {
+  color: #ffffff !important;
+  background-color: #0099dd !important;
+  font-size: 18px;
+  font-weight: 400;
+  left: 100px;
+  letter-spacing: 0;
+  line-height: normal;
+  top: 5px;
+  margin-left: 90%;
+  margin-top: 1%;
+}
+
+.next-button .btn:active {
+  color: #ffffff !important;
+  background-color: #0099dd !important;
+  font-size: 18px;
+  font-weight: 400;
+  left: 100px;
+  letter-spacing: 0;
+  line-height: normal;
+  top: 5px;
+  margin-left: 90%;
+  margin-top: 1%;
+}
+
+.test-guidelines {
+  font-weight: bold;
+}

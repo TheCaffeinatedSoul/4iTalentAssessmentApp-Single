@@ -1,0 +1,8 @@
+.timer-component {
+  display: inline-flex;
+  padding: 0.625rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  border-radius: 0.3125rem;
+}

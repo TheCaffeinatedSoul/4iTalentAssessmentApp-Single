@@ -1,0 +1,22 @@
+.section-component {
+  flex: 1;
+  font-size: medium;
+  margin: 8px;
+  text-align: left;
+  background-color: #ffffff !important;
+  box-shadow: 1px 1px 8px #d6d6d691;
+  padding: 10px;
+  max-width: 154px;
+  cursor: pointer;
+}
+
+.section-component.clicked {
+  background-color: #ededed !important;
+  border: 1px solid #009bdd4d !important;
+  animation: slide 0.4s ease-in-out;
+}
+
+.topic-name {
+  color: #0099dd;
+  font-size: 14px;
+}

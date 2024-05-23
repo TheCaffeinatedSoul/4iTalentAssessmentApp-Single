@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="./logo.svg" />
+    <title>4i Apps Solutions - Talent Hub</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1 maximum-scale=1 minimum-scale=1"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css"
+    />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <script>
+      if ("serviceWorker" in navigator) {
+        navigator.serviceWorker
+          .register("/serviceworker.js")
+          .then((registration) => {
+            console.log(
+              "Service Worker registered with scope:",
+              registration.scope
+            );
+          })
+          .catch((error) => {
+            console.error("Service Worker registration failed:", error);
+          });
+      }
+    </script>
+
+    <style>
+      @font-face {
+        font-family: "SF UI Display-Bold";
+        src: url("https://fonts.animaapp.com/SFUIDisplay-Bold")
+          format("opentype");
+      }
+
+      @font-face {
+        font-family: "SF UI Display-Semibold";
+        src: url("https://fonts.animaapp.com/SFUIDisplay-Semibold")
+          format("opentype");
+      }
+
+      @font-face {
+        font-family: "SF UI Display-Medium";
+        src: url("https://fonts.animaapp.com/SFUIDisplay-Medium")
+          format("opentype");
+      }
+
+      @font-face {
+        font-family: "SF UI Display-Regular";
+        src: url("https://fonts.animaapp.com/SFUIDisplay-Regular")
+          format("opentype");
+      }
+    </style>
+    <style>
+      @import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+      * {
+        -webkit-font-smoothing: antialiased;
+        box-sizing: border-box;
+      }
+      html,
+      body {
+        margin: 0px;
+        height: 100%;
+      }
+      /* a blue color as a generic focus style */
+      button:focus-visible {
+        outline: 2px solid #4a90e2 !important;
+        outline: -webkit-focus-ring-color auto 5px !important;
+      }
+      a {
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="./src/index.js"></script>
+  </body>
+</html>
